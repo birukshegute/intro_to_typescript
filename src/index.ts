@@ -1,5 +1,5 @@
 console.log('hello world')
-let age:number = 20;
+let age:number = 30;
 
 async function hello() {
     return ('world')
