@@ -76,6 +76,16 @@ function greet(name: string | null | undefined) {
 
 greet(undefined);
 
+type Customer = {
+    birthday: Date
+};
+
+function getCustomer(id: number): Customer | null | undefined {
+    return id === 0 ? null : { birthday: new Date()};
+}
+
+let customer = getCustomer(0);
+console.log(customer?.birthday) // Optional property access operator
 // async function hello() {
 //     return ('world')
 // }
