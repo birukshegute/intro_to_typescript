@@ -67,6 +67,15 @@ let textBox: UIWidget = {
 type Quantity = 50 | 100;
 let quantity: Quantity = 100;
 
+function greet(name: string | null | undefined) {
+    if (name)
+        console.log(name.toUpperCase());
+    else
+        console.log('Hola!');
+}
+
+greet(undefined);
+
 // async function hello() {
 //     return ('world')
 // }
