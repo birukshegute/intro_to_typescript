@@ -15,6 +15,13 @@ let mySize2: Size2 = Size2.Medium
 console.log(mySize, mySize2);
 console.log(numbers)
 
+function calculateTax(income: number, taxYear = 2022) : number {
+    if (income< 50_000 && taxYear < 2022)
+        return income * 0.2;
+    return income * 0.3;
+}
+
+console.log(calculateTax(10_000))
 
 // async function hello() {
 //     return ('world')
