@@ -31,4 +31,5 @@ let employee = { id: 1,
         console.log(date);
     }
 };
+console.log(employee);
 //# sourceMappingURL=index.js.map

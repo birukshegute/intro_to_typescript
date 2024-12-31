@@ -34,6 +34,7 @@ let employee: {
     }
 };
 
+console.log(employee)
 // async function hello() {
 //     return ('world')
 // }
