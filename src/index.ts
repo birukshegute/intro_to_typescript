@@ -23,6 +23,17 @@ function calculateTax(income: number, taxYear = 2022) : number {
 
 console.log(calculateTax(10_000))
 
+let employee: {
+    readonly id: number, // this one can't be altered later
+    name: string,
+    retire: (date: Date) => void
+} = {id:1,
+    name: 'BB',
+    retire: (date: Date) => {
+        console.log(date);
+    }
+};
+
 // async function hello() {
 //     return ('world')
 // }
