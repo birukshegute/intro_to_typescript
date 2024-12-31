@@ -64,6 +64,8 @@ let textBox: UIWidget = {
     resize: () => {}
 }
 
+type Quantity = 50 | 100;
+let quantity: Quantity = 100;
 
 // async function hello() {
 //     return ('world')
