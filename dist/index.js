@@ -25,7 +25,8 @@ function calculateTax(income, taxYear = 2022) {
     return income * 0.3;
 }
 console.log(calculateTax(10000));
-let employee = { id: 1,
+let employee = {
+    id: 1,
     name: 'BB',
     retire: (date) => {
         console.log(date);
